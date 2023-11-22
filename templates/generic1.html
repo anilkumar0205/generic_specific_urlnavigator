@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>
+            hi this is generic1 page
+            <a href="{% url 'generic2' %}"><h1>this is generic2</h1></a>
+        </h1>
+       <a href="{% url 'specific:specific1' %}"> <h1>this is specific1</h1></a>
+       <a href="{% url 'specific:specific2' %}"> <h1>this is specific2</h1></a>
+    </center>
+</body>
+</html>
